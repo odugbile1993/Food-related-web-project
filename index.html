@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBQ Feast - Grill and Smoke Barbecue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <h1>BBQ Feast</h1>
+        <p>The Ultimate Grill & Smoke Experience</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Featured Dishes -->
+    <section id="home" class="featured-dishes">
+        <h2>Our Best BBQ Dishes</h2>
+        <div class="dish">
+            <img src="https://images.unsplash.com/photo-1606755968199-e5c766221c6b" alt="Grilled Steak">
+            <h3>Smoked Beef Brisket</h3>
+            <p>Perfectly smoked, tender beef brisket, cooked low and slow for ultimate flavor.</p>
+        </div>
+        <div class="dish">
+            <img src="https://images.unsplash.com/photo-1560185127-6f4b03fb8a19" alt="Grilled Chicken">
+            <h3>Grilled BBQ Chicken</h3>
+            <p>Juicy grilled chicken, marinated in our special BBQ sauce for that finger-licking goodness.</p>
+        </div>
+        <div class="dish">
+            <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85" alt="BBQ Ribs">
+            <h3>Barbecue Pork Ribs</h3>
+            <p>Succulent pork ribs, glazed with our signature smoky barbecue sauce.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About BBQ Feast</h2>
+        <p>Welcome to BBQ Feast, your number one spot for smoky, delicious barbecue flavors. With over a decade of grilling experience, we bring the art of barbecue to your table, serving up mouth-watering briskets, ribs, and everything in between. Whether it's a backyard party or a family gathering, BBQ Feast delivers the best grilled meals in town.</p>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-items">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Smoked Pulled Pork</h3>
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" alt="Pulled Pork">
+            <p>Slow-cooked and smoked to perfection, our pulled pork melts in your mouth.</p>
+        </div>
+        <div class="menu-item">
+            <h3>BBQ Ribs Combo</h3>
+            <img src="https://images.unsplash.com/photo-1603048571927-04d3cd6b37b1" alt="BBQ Ribs">
+            <p>A combo of our famous BBQ pork ribs with sides of coleslaw and cornbread.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Grilled Veggie Platter</h3>
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Grilled Vegetables">
+            <p>Fresh veggies grilled to perfection, seasoned with olive oil, garlic, and herbs.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question? Want to make a reservation? Drop us a message!</p>
+        <form action="/submit" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 BBQ Feast | All Rights Reserved</p>
+        <p><a href="#home">Back to top</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,201 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #ff5733;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Featured Dishes */
+.featured-dishes {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.featured-dishes h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.dish {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.dish img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.dish:hover {
+    transform: scale(1.05);
+}
+
+.dish h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.dish p {
+    color: #666;
+}
+
+/* About Us Section */
+#about {
+    padding: 40px;
+    background-color: #ffddcc;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+/* Menu Section */
+.menu-items {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.menu-items h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    color: #666;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    background-color: #ffddcc;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact input, 
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #e04a2e;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p a {
+    color: #ff5733;
+}
+
+footer p a:hover {
+    text-decoration: none;
+}
